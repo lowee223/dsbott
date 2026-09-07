@@ -128,4 +128,4 @@ client.on('messageCreate', async (message) => {
 });
 
 // Reemplaza 'TU_TOKEN_AQUI' con el token de tu bot de Discord Developer Portal
-client.login('MTU0NjM3ODI3NDYwMTQ0MzM1OA.GS3hdA.GC0qvwvuaPaev4unn6m4h0hHZ940RdQ2kUiBcM');
+client.login(process.env.DISCORD_TOKEN);
